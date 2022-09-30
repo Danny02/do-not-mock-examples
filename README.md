@@ -28,3 +28,7 @@ by executing the tests.
 
 Shows the problems when mocking overloaded methods. 
 The difficulties mocking Slf4j are also shown.
+
+### Mockery 
+
+A real world implementation and test, which does not test anything.
