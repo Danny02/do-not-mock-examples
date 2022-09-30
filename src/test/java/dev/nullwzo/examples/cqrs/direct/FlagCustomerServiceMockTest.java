@@ -57,7 +57,6 @@ class FlagCustomerServiceMockTest {
 
         service.gdprDeletionFor(id);
 
-        verify(pdRepo).deleteById(id);
         verify(cvRepo).deleteById(id);
     }
 

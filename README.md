@@ -7,8 +7,8 @@ in more stable tests then if mocks where used.
 
 ### CQRS
 
-This is a more involved case. You can find a service can write 
-and read customer data. The data is managed in a write and read
+This is a more involved case. You can find a service that writes 
+and reads customer data. The data is managed in a write and read
 model, which is updated from the write model.
 
 The case consist of two similar implementations, which only differ
@@ -28,3 +28,7 @@ by executing the tests.
 
 Shows the problems when mocking overloaded methods. 
 The difficulties mocking Slf4j are also shown.
+
+### Mockery 
+
+A real world implementation and test, which does not test anything.
